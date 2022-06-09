@@ -1,5 +1,5 @@
 body{
-    background: url(login.jpg);
+    background: url(login2.jpg);
     background-size: cover;
 }
 div{
@@ -44,10 +44,8 @@ div{
     }
     h1{
         position: absolute;
-        top: 14%;
-        left: 590;
+        top: 12%;
+        left:800;
         font-family: jokerman;
         font-size: 45;
-     
-        
-    }
+     }
