@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+a{
+	text-decoration: none;
+}
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us Page</h1>
+  <p>This website is designed for engineering students to provide 
+	them notes of all subject irrespective of their branch and year..</p>
+  <p> You have to first choose your branch then you will be redirected
+	to another page where you have to choose your year.<br> Then all related subject will appear
+	in another and you can simply view or download the pdf.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="shivam.jpeg" alt="Shivam" width="427" height="500">
+      <div class="container">
+        <h2>Shivam Kumar Jha</h2>
+        <p class="title">20193023</p>
+        <p>IT</p>
+        <p>20193023.it@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/shivam-kumar-jha-0a81b8191/" target="_blank">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="sohail.jpeg" alt="Sohail"  width="427" height="500">
+      <div class="container">
+        <h2>Md Sohail Aftab</h2>
+        <p class="title">20193061</p>
+        <p>IT</p>
+        <p>20193061.itsohail@gmail.com</p>
+        <p><button class="button"><a href="https://github.com/Sohail-codz" target="_blank">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="sonu.jpeg" alt="sonu"  width="427" height="500">
+      <div class="container">
+        <h2>SONU KUMAR SINGH</h2>
+        <p class="title">20193031</p>
+        <p>IT</p>
+        <p>sksingh00433@gmail.com</p>
+        <p><button class="button"><a href="https://www.linkedin.com/in/sks047" target="_blank">contact</a></button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Maruf.jpeg" alt="Maruf"  width="427" height="500">
+      <div class="container">
+        <h2>Md Maruf Hasnain</h2>
+        <p class="title">20193052</p>
+        <p>IT</p>
+        <p>mohammedmhasnain19980@gmail.com</p>
+        <p><button class="button"><a href="https://instagram.com/marufhasnain98?igshid=YmMyMTA2M2Y=" target="_blank">Contact</a></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="aayush.jpeg" alt="Aayush" width="427" height="500">
+      <div class="container">
+        <h2>Aayush Raj</h2>
+        <p class="title">20193059</p>
+        <p>IT</p>
+        <p>rajaayush075@gmail.com</p>
+        <p><button class="button"><a href="https://www.instagram.com/singh_rajaayush075/" target="_blank">contact</a></button></p>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="column">
+    <div class="card">
+      <img src="/w3images/team3.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+</body>
+</html>
